@@ -122,8 +122,6 @@ public class EmployeeServiceImpl implements EmployeeService {
         Employee employee = Employee.builder()
                 .id(id)
                 .status(status).
-                updateTime(LocalDateTime.now())
-                .updateUser(10L).
                 build();
 
         employeeMapper.update(employee);
