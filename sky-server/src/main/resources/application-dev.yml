@@ -6,3 +6,8 @@ sky:
     database: sky_take_out
     username: root
     password: 1122
+
+  wechat:
+    appid: wxc8437145b29b4ace
+    secret: ddd6535b7c45fbe99d58858232e5ee03
+
